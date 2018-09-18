@@ -85,7 +85,7 @@ fun reversePrint(llist: SinglyLinkedListNode?): Unit {
             node = next
             next = buf
         }
-        
+
         next = node.next
         println(node.data)
         while (next != null) {
