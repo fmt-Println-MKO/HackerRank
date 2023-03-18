@@ -17,7 +17,7 @@ class MyMath {
   }
 
   public PerformOperation isOdd() {
-    return ((int a) -> a % 2 == 0);
+    return ((int a) -> a % 2 != 0);
   }
 
   public PerformOperation isPrime() {
