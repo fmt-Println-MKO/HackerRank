@@ -23,7 +23,7 @@ class ResultTest {
 //    3 2 1 --> 6
 
 
-    int counts = Result.solve(arr);
+    long counts = Result.solve(arr);
 
     Assert.assertEquals(8,counts);
 
@@ -53,7 +53,7 @@ class ResultTest {
 //    3 2 1 --> 6
 
 
-    int counts = Result.solve(arr);
+    long counts = Result.solve(arr);
 
     Assert.assertEquals(30,counts);
 
@@ -78,7 +78,7 @@ class ResultTest {
 //    3 2 1 --> 6
 
 
-    int counts = Result.solve(arr);
+    long counts = Result.solve(arr);
 
 
 
